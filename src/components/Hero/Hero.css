@@ -1,0 +1,33 @@
+.hero{
+    height: max-content;
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 10rem;
+}
+.hero h1{
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.hero p{
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    width: 60%;
+    text-align: justify;
+    padding: 0 1rem;
+}
+.downloadBtn{
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+.downloadBtn:hover{
+    box-shadow: 0 0 10px #fff;
+}
