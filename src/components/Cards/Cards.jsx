@@ -1,7 +1,7 @@
 import React from 'react'
 import EventCard from '../EventCard/EventCard'
 import './Cards.css'
-import { EventData } from '../../data/Event'
+import { EventData } from '../../data/EventData'
 
 const Cards = () => {
   return (
