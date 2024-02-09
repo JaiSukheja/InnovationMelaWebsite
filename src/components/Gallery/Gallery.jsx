@@ -1,7 +1,15 @@
 import React, { useState, useCallback, useRef } from "react";
 import { PhotoAlbum } from "react-photo-album";
 import clsx from "clsx";
-// import  from "../assets/.jpeg";
+import gal1 from "/public/gal1.jpeg";
+import gal2 from "/public/gal2.jpeg";
+import gal3 from "/public/gal3.jpeg";
+import gal4 from "/public/gal4.jpeg";
+import gal5 from "/public/gal5.jpg";
+import gal6 from "/public/gal6.jpeg";
+import gal7 from "/public/gal7.jpg";
+import gal8 from "/public/gal8.jpg";
+
 import {
   closestCenter,
   DndContext,
@@ -28,14 +36,14 @@ import "yet-another-react-lightbox/styles.css";
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
 const unsplashPhotos = [
-  { src: "public/gal1.jpeg", width: 1080, height: 1080},
-  { src: "public/gal2.jpeg", width: 1080, height: 1080},
-  { src: "public/gal3.jpeg", width: 1080, height: 1080},
-  { src: "public/gal4.jpeg", width: 1080, height: 1080},
-  { src: "public/gal5.jpg", width: 1080, height: 1080},
-  { src: "public/gal6.jpeg", width: 1080, height: 1080},
-  { src: "public/gal7.jpg", width: 1080, height: 1080},
-  { src: "public/gal8.jpg", width: 1080, height: 1080},  
+  { src: gal1, width: 1080, height: 1080},
+  { src: gal2, width: 1080, height: 1080},
+  { src: gal3, width: 1080, height: 1080},
+  { src: gal4, width: 1080, height: 1080},
+  { src: gal5, width: 1080, height: 1080},
+  { src: gal6, width: 1080, height: 1080},
+  { src: gal7, width: 1080, height: 1080},
+  { src: gal8, width: 1080, height: 1080},  
 ];
 
 const photoSet = unsplashPhotos.map((photo) => ({
