@@ -3,7 +3,7 @@ import './EventCard.css'
 
 const EventCard = ({props}) => {
   return (
-    <div class="box">
+    <div className="box">
         <span></span>
         <div class="content">
             <h2>{props.EventName}</h2>

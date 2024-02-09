@@ -464,3 +464,10 @@ select {
 .dot-indicators > [aria-selected="true"] {
   background-color: hsl(var(--clr-white) / 1);
 }
+
+.navbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import img from "../../assets/logo.svg";
 import "./NavBar.css";
 
@@ -18,11 +19,11 @@ const NavBar = () => {
   }
 
   return (
-    <>
+    <div className="navbar">
       <div className="destination">
-        <a className="skip-to-content" href="#main">
+        <Link to = "/" className="skip-to-content" href="#main">
           Skip to content
-        </a>
+        </Link>
         <header className="primary-header flex">
           <div>
             <img src={img} alt="space tourism logo" className="logo" />
@@ -52,62 +53,56 @@ const NavBar = () => {
               className="primary-navigation underline-indicators flex"
             >
               <li className="active">
-                <a
+                <Link to="/"
                   className="ff-sans-cond uppercase text-white letter-spacing-2"
-                  href="index.html"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link to = "/gallery"
                   className="ff-sans-cond uppercase text-white letter-spacing-2"
-                  href="destination.html"
                 >
                   Gallery
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link to = "/about"
                   className="ff-sans-cond uppercase text-white letter-spacing-2"
-                  href="crew.html"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link to = "/events"
                   className="ff-sans-cond uppercase text-white letter-spacing-2"
-                  href="technology.html"
                 >
                   Events
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link to = "/contact"
                   className="ff-sans-cond uppercase text-white letter-spacing-2"
-                  href="technology.html"
                   style={{
                     display: "flex",
                     gap: "5px",
                   }}
                 >
                   Contact <div>Us</div>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link to = "/team"
                   className="ff-sans-cond uppercase text-white letter-spacing-2"
-                  href="technology.html"
                 >
                   Team
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
         </header>
       </div>
-    </>
+    </div>
   );
 };
 

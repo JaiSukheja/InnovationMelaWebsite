@@ -6,8 +6,8 @@ const Footer = () => {
     <div className="footer">
       <div className="reach-us">
         <div className="reach-us-container">
+          <img src="https://tnm.mait.ac.in/images/abstractbg/Logo_white.png" alt="" />
           <div className="address">
-            <img src="https://tnm.mait.ac.in/images/abstractbg/Logo_white.png" alt="" />
             <h2 className="address-line">
               MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY
             </h2>
