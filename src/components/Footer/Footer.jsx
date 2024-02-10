@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="reach-us">
+        <h2 className="reach-us-heading">Reach Us</h2>
         <div className="reach-us-container">
           <img src="https://tnm.mait.ac.in/images/abstractbg/Logo_white.png" alt="" />
           <div className="address">

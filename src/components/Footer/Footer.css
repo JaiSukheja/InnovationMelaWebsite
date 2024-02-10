@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
     background-color: hsl(230 35% 7%);
+    background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     bottom: 0;
@@ -18,12 +19,9 @@
   }
   
   .reach-us-heading {
+    font-size: 3rem;
     text-align: center;
-    margin: 2rem;
-    font-size: 2.4rem;
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 5px;
+    transform: translateY(20px);
   }
   .address{
     display: flex;
@@ -36,7 +34,7 @@
   }
   .reach-us-container img{
     max-width: 120px;
-    max-height: 120px;
+    max-height: 100px;
     margin-bottom: 10px;
   }
   .address h2 {
@@ -136,6 +134,7 @@
     color: white;
     text-align: center;
     background-color: black;
+    border-top: 2px solid #ffffffa5;
     width: 100%;
     padding: 10px;
     bottom: 0;

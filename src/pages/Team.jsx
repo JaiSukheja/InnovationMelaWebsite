@@ -1,8 +1,9 @@
 import React from 'react'
+import TeamCardContainer from '../components/TeamCardContainer/TeamCardContainer'
 
 const Team = () => {
   return (
-    <div>Team</div>
+    <TeamCardContainer/>
   )
 }
 

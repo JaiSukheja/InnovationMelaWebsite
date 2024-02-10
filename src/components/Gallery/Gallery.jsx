@@ -44,6 +44,22 @@ const unsplashPhotos = [
   { src: gal6, width: 1080, height: 1080},
   { src: gal7, width: 1080, height: 1080},
   { src: gal8, width: 1080, height: 1080},  
+  { src: gal1, width: 1080, height: 1080},
+  { src: gal2, width: 1080, height: 1080},
+  { src: gal3, width: 1080, height: 1080},
+  { src: gal4, width: 1080, height: 1080},
+  { src: gal5, width: 1080, height: 1080},
+  { src: gal6, width: 1080, height: 1080},
+  { src: gal7, width: 1080, height: 1080},
+  { src: gal8, width: 1080, height: 1080},  
+  { src: gal1, width: 1080, height: 1080},
+  { src: gal2, width: 1080, height: 1080},
+  { src: gal3, width: 1080, height: 1080},
+  { src: gal4, width: 1080, height: 1080},
+  { src: gal5, width: 1080, height: 1080},
+  { src: gal6, width: 1080, height: 1080},
+  { src: gal7, width: 1080, height: 1080},
+  { src: gal8, width: 1080, height: 1080},  
 ];
 
 const photoSet = unsplashPhotos.map((photo) => ({
@@ -190,19 +206,17 @@ export default function Gallery() {
       <SortableContext items={photos}>
         <div
           style={{
-            padding: 20,
-            paddingLeft: 40,
-            paddingRight: 40,
+            padding: 40,
+            paddingLeft: 80,
+            paddingRight: 80,
             paddingBottom: 80,
-            background:
-              "linear-gradient(90.13deg, #0A1227 45.33%, #09090F 99.32%)",
           }}
         >
           <PhotoAlbum
             photos={photos}
             layout="rows"
             spacing={30}
-            padding={20}
+            padding={3}
             renderPhoto={renderPhoto}
             onClick={({ index }) => setIndex(index)}
           />
