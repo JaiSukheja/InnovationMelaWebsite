@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
     background-color: hsl(230 35% 7%);
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     bottom: 0;
@@ -133,7 +133,7 @@
     font-size: 1rem;
     color: white;
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.736);
     border-top: 2px solid #ffffffa5;
     width: 100%;
     padding: 10px;
