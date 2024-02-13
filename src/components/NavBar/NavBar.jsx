@@ -1,29 +1,38 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import img from "../../assets/logo.svg";
 import "./NavBar.css";
-
+import { useState, useEffect, useRef } from "react";
 const NavBar = () => {
-  function ToggleNav() {
-    const nav = document.querySelector(".primary-navigation");
-    const navToggle = document.querySelector(".mobile-nav-toggle");
+  const [isVisible, setIsVisible] = useState(false);
+  const nav = useRef(null);
+  const navBtn = useRef(null);
 
-    const visiblity = nav.getAttribute("data-visible");
-    console.log(visiblity);
-    if (visiblity === "false") {
-      nav.setAttribute("data-visible", true);
-      navToggle.setAttribute("aria-expanded", true);
-    } else {
-      nav.setAttribute("data-visible", false);
-      navToggle.setAttribute("aria-expanded", false);
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
+  const handleClickOutside = (event) => {
+    if (
+      nav.current &&
+      !nav.current.contains(event.target) &&
+      !navBtn.current.contains(event.target)
+    ) {
+      setIsVisible(false);
     }
-  }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="navbar">
       <div className="destination">
-        <Link to = "/" className="skip-to-content" href="#main">
+        <NavLink to="/" className="skip-to-content" href="#main">
           Skip to content
-        </Link>
+        </NavLink>
         <header className="primary-header flex">
           <div>
             <img src={img} alt="space tourism logo" className="logo" />
@@ -31,7 +40,11 @@ const NavBar = () => {
           <button
             className="mobile-nav-toggle"
             aria-controls="primary-navigation"
-            onClick={ToggleNav}
+            aria-expanded={isVisible}
+            onClick={() => {
+              toggleVisibility();
+            }}
+            ref={navBtn}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -49,55 +62,50 @@ const NavBar = () => {
           <nav>
             <ul
               id="primary-navigation"
-              data-visible="false"
               className="primary-navigation underline-indicators flex"
+              data-visible={isVisible}
+              ref={nav}
             >
-              <li className="active">
-                <Link to="/"
-                  className="ff-sans-cond uppercase text-white letter-spacing-2"
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to = "/gallery"
-                  className="ff-sans-cond uppercase text-white letter-spacing-2"
-                >
-                  Gallery
-                </Link>
-              </li>
-              <li>
-                <Link to = "/about"
-                  className="ff-sans-cond uppercase text-white letter-spacing-2"
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link to = "/events"
-                  className="ff-sans-cond uppercase text-white letter-spacing-2"
-                >
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link to = "/contact"
-                  className="ff-sans-cond uppercase text-white letter-spacing-2"
-                  style={{
-                    display: "flex",
-                    gap: "5px",
-                  }}
-                >
-                  Contact <div>Us</div>
-                </Link>
-              </li>
-              <li>
-                <Link to = "/team"
-                  className="ff-sans-cond uppercase text-white letter-spacing-2"
-                >
-                  Team
-                </Link>
-              </li>
+              <NavLink
+                to="/"
+                className="ff-sans-cond uppercase text-white letter-spacing-2"
+              >
+                Home
+              </NavLink>
+              <NavLink
+                to="/gallery"
+                className="ff-sans-cond uppercase text-white letter-spacing-2"
+              >
+                Gallery
+              </NavLink>
+              <NavLink
+                to="/about"
+                className="ff-sans-cond uppercase text-white letter-spacing-2"
+              >
+                About
+              </NavLink>
+              <NavLink
+                to="/events"
+                className="ff-sans-cond uppercase text-white letter-spacing-2"
+              >
+                Events
+              </NavLink>
+              <NavLink
+                to="/contact"
+                className="ff-sans-cond uppercase text-white letter-spacing-2"
+                style={{
+                  display: "flex",
+                  gap: "5px",
+                }}
+              >
+                Contact <div>Us</div>
+              </NavLink>
+              <NavLink
+                to="/team"
+                className="ff-sans-cond uppercase text-white letter-spacing-2"
+              >
+                Team
+              </NavLink>
             </ul>
           </nav>
         </header>

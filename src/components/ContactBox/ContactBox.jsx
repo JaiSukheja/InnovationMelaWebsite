@@ -99,6 +99,10 @@ const StudentDetails = [
   {
     name: 'Mayan Bhandari',
     contact: '+91-9958527919'
+  },
+  {
+    name: 'Jai Sukheja',
+    contact: '+91-8595717162'
   }
 ]
 

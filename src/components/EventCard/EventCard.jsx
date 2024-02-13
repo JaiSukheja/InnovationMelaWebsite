@@ -1,5 +1,6 @@
 import React from 'react'
 import './EventCard.css'
+import { Link } from 'react-router-dom'
 
 const EventCard = ({props}) => {
   return (
@@ -8,7 +9,7 @@ const EventCard = ({props}) => {
         <div class="content">
             <h2>{props.EventName}</h2>
             <p>{props.EventDesc}</p>
-            <a href="#">Read More</a>
+            <Link to={"/events/" + props.EventNumber}>Read More</Link>
         </div>
     </div>
   )

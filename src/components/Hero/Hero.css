@@ -31,3 +31,37 @@
 .downloadBtn:hover{
     box-shadow: 0 0 10px #fff;
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .hero{
+        padding: 2rem 2rem 8rem;
+    }
+    .hero h1{
+        font-size: 3rem;
+    }
+    .hero p{
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .downloadBtn{
+        margin: 1rem 0;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .hero h1{
+        font-size: 2rem;
+    }
+    .hero p{
+        font-size: 1rem;
+    }
+    .downloadBtn{
+        padding: 0.5rem 0.8rem;
+        font-size: 1rem;
+    }
+}

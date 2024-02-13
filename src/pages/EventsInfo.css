@@ -1,0 +1,53 @@
+.event_info {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-family: inherit;
+  }
+  .event_info h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    /* font-weight: 700; */
+  }
+  
+  .event_info img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+  .event_info p{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+    
+  .neon-button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+  }
+  
+    .neon-button:hover {
+        box-shadow: 0 0 10px var(--clr-neon);
+    }
+  
+  @media screen and (max-width: 768px) {
+    .event_info {
+      width: 100%;
+      padding: 0 20px;
+
+    }
+    .event_info img {
+      height: 300px;
+    }
+    
+    .neon-button {
+      font-size: 1.2rem;
+    }
+  }
+  

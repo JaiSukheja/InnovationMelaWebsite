@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Team from "./pages/Team";
 import "./App.css";
 import Events from "./pages/Events";
+import EventInfo from "./pages/EventInfo";
 
 const App = () => {
   const Layout = () => {
@@ -36,6 +37,7 @@ const App = () => {
         { path: "/contact", element: <Contact /> },
         { path: "/team", element: <Team /> },
         { path: "/events", element: <Events /> },
+        { path: "/events/:id", element: <EventInfo /> },
         { path: "*", element: <Home /> },
       ],
     },
