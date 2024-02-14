@@ -19,13 +19,15 @@ const EventInfo = () => {
       <h3>Venue: {EventData[id-1].EventVenue}</h3>
       <h3>Date: {EventData[id-1].EventDate}</h3>
       <h3>Time: {EventData[id-1].EventTime}</h3>
+      <div className="neon-button">
       <Link
         to={EventData[id-1].EventRegLink}
         target="_blank"
-        className="neon-button"
+        
       >
         Register Now
       </Link>
+      </div>
     </div>
   );
 };

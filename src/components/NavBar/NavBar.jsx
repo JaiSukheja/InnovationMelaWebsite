@@ -30,9 +30,6 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <div className="destination">
-        <NavLink to="/" className="skip-to-content" href="#main">
-          Skip to content
-        </NavLink>
         <header className="primary-header flex">
           <div>
             <img src={img} alt="space tourism logo" className="logo" />
