@@ -15,7 +15,10 @@ const EventInfo = () => {
       <div>
         <img src={EventData[id-1].EventImg} alt="" />
       </div>
-      <p>{EventData[id-1].EventDesc}</p>
+      <h2>{EventData[id-1].EventDesc}</h2>
+      <h3>Venue: {EventData[id-1].EventVenue}</h3>
+      <h3>Date: {EventData[id-1].EventDate}</h3>
+      <h3>Time: {EventData[id-1].EventTime}</h3>
       <Link
         to={EventData[id-1].EventRegLink}
         target="_blank"
