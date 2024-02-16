@@ -70,9 +70,10 @@ h1 {
 }
 
 .aboutPerson {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #fff;
     margin-bottom: 20px;
+    padding: 0 10px;
 }
 
 .conatctBtn {

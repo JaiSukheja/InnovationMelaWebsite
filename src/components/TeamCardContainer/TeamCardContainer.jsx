@@ -16,7 +16,7 @@ const org = [
   {
     name: 'Prof.(Dr) Namita Gupta',
     designation: "HOD (CSE)",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis sequi consequuntur nulla sint nobis ad eaque quae deserunt tempore error a",
+    desc: '"Believe in your abilities, embrace your potential, and never underestimate your capacity to achieve greatness."',
     img: img1
   },
 ]
@@ -25,19 +25,19 @@ const coor = [
   {
     name: 'Ms. Ruchi Goel',
     designation: "Assistant Professor",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis sequi consequuntur nulla sint nobis ad eaque quae deserunt tempore error a",
+    desc: '"Your journey may be tough, but remember, so are you. Keep pushing forward, and you will reach heights you never thought possible."',
     img: img2
   },
   {
     name: 'Mr. Ashish Sharma',
     designation: "Assistant Professor",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis sequi consequuntur nulla sint nobis ad eaque quae deserunt tempore error a",
+    desc: '"Don\'t be afraid to take risks, to step out of your comfort zone, and to pursue your passions relentlessly. Greatness lies beyond the boundaries of fear."',
     img: img9
   },
   {
     name: 'Mr. Anupam Kumar',
     designation: "Assistant Professor",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis sequi consequuntur nulla sint nobis ad eaque quae deserunt tempore error a",
+    desc: '"In the face of adversity, remember that every setback is a setup for a comeback. Keep your head held high, your heart strong, and your dreams alive."',
     img: img4
   }
 ]
@@ -45,31 +45,31 @@ const memb = [
   {
     name: 'Mr. Alok Sharma',
     designation: "Assistant Professor",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis sequi consequuntur nulla sint nobis ad eaque quae deserunt tempore error a",
+    desc: '"You are the author of your own story. Write one that inspires, challenges, and ultimately leads to your greatest triumphs."',
     img: img8
   },
   {
     name: 'Dr. Yogesh Sharma',
     designation: "Assistant Professor",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis sequi consequuntur nulla sint nobis ad eaque quae deserunt tempore error a",
+    desc: '"The path to success is paved with perseverance, dedication, and resilience. Keep going, even when it gets tough."',
     img: img3
   },
   {
     name: 'Dr. Sandeep Tayal',
     designation: "Assistant Professor",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis sequi consequuntur nulla sint nobis ad eaque quae deserunt tempore error a",
+    desc: '"You have within you the strength, the patience, and the passion to reach for the stars and change the world. Believe in yourself, and anything is possible"',
     img: img6
   },
   {
     name: 'Ms. Garima Gupta',
     designation: "Assistant Professor",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis sequi consequuntur nulla sint nobis ad eaque quae deserunt tempore error a",
+    desc: '"Success is not determined by how many times you fall, but by how many times you rise after falling. Keep getting up, keep moving forward."',
     img: img5
   },
   {
     name: 'Ms. Nisha Aggarwal',
     designation: "Assistant Professor",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis sequi consequuntur nulla sint nobis ad eaque quae deserunt tempore error a",
+    desc: '"Your journey is unique, your dreams are valid, and your potential is limitless. Embrace the challenges, for they are the stepping stones to your success."',
     img: img7
   }
 ]

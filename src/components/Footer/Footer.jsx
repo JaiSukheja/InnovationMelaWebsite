@@ -32,7 +32,7 @@ const Footer = () => {
       <div className="social">
         <div className="icons">
         <a
-            href=""
+            href="https://www.linkedin.com/school/maharaja-agrasen-institute-of-technology/"
             target="_blank"
             className="social-icon"
             style={{ color: "white" }}
@@ -40,7 +40,7 @@ const Footer = () => {
             <i className="bx bxl-linkedin"></i>
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/csemait"
             target="_blank"
             className="social-icon"
             style={{ color: "blue" }}
@@ -48,7 +48,7 @@ const Footer = () => {
             <i className="bx bxl-meta"></i>
           </a>
           <a
-            href=""
+            href="https://www.instagram.com/maitdelhi/"
             target="_blank"
             className="social-icon"
             style={{ color: "#ff006f" }}
@@ -57,9 +57,17 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
-            href="mailto:"
+            href="https://mait.ac.in/"
             className="social-icon"
-            style={{ color: "grey" }}
+            style={{ color: "lightblue" }}
+          >
+            <i className="bx bx-globe"></i>
+          </a>
+          <a
+            target="_blank"
+            href="https://mait.ac.in/index.php/contact-us"
+            className="social-icon"
+            style={{ color: "lightgrey" }}
           >
             <i className="bx bxs-envelope"></i>
           </a>
