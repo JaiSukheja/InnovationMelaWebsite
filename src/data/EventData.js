@@ -2,8 +2,9 @@ const EventData = [
     {
         EventNumber:1,
         EventName: "Pitching Competition",
-        EventDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo.",
+        EventDesc: "Pitching Competition is a platform for students to showcase their innovative ideas and get a chance to win cash prizes. The event is open to all students from various colleges and universities. The competition will be judged by a panel of industry experts and investors.",
         EventVenue: "MAIT Auditorium",
+        EventPrizeTitles: ["Eureka Excellence Prize: Celebrating Brilliance in Pitching Innovation", "The Innovation Catalyst Award: Igniting Ideas for Change", "Visionary Vanguard Prize: Leading the Way with Your Pitch"],
         EventDate: "22nd February 2024",
         EventTime: "12:00 PM - 2:00 PM",
         EventRegLink: "https://docs.google.com/forms/d/e/1FAIpQLScinoMCLhhmrfT4QgGt8VQ3tW8EXBu4wbiyY1boJLhadCxyww/viewform?usp=send_form",
@@ -12,7 +13,7 @@ const EventData = [
     {
         EventNumber:2,
         EventName: "Innovative Idea Exhibition ",
-        EventDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo.",
+        EventDesc: "The Innovative Idea Exhibition is a platform for students to showcase their innovative ideas and get a chance to win cash prizes. The event is open to all students from various colleges and universities. The competition will be judged by a panel of industry experts and investors.",
         EventVenue: "MAIT Auditorium",
         EventDate: "22nd February 2024",
         EventTime: "12:00 PM - 2:00 PM",
@@ -22,7 +23,8 @@ const EventData = [
     {
         EventNumber:3,
         EventName: "Innovative Products Stalls ",
-        EventDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo.",
+        EventDesc: "The Innovative Products Stalls is a platform for students to showcase their innovative products and get a chance to win cash prizes. The event is open to all students from various colleges and universities. The competition will be judged by a panel of industry experts and investors.",
+        EventPrizeTitles: ["Poster Palate: Tasting the Flavor of Creativity and Insight", "Artistry Unveiled: Recognizing the Best in Poster Design and Content"],
         EventVenue: "MAIT Auditorium",
         EventDate: "22nd February 2024",
         EventTime: "12:00 PM - 2:00 PM",
@@ -37,7 +39,7 @@ const EventData = [
         EventDate: "22nd February 2024",
         EventTime: "12:00 PM - 2:00 PM",
         EventRegLink: "https://docs.google.com/forms/d/e/1FAIpQLScinoMCLhhmrfT4QgGt8VQ3tW8EXBu4wbiyY1boJLhadCxyww/viewform?usp=send_form",
-        EventImg: "https://d1b3667xvzs6rz.cloudfront.net/2023/09/IMG-20230913-WA0004-860x573.jpeg"
+        EventImg: "https://scontent.fdel11-3.fna.fbcdn.net/v/t39.30808-6/333524472_1397656367663122_1520802577624044886_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=vkSZyTP-7tcAX-fGm78&_nc_ht=scontent.fdel11-3.fna&oh=00_AfCHJz2qNGP3ZD8bJMJsyYt1BPTamdPmDlhmE5YMdY-DbA&oe=65D518BC"
     }
 
 ]

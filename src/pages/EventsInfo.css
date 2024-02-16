@@ -6,6 +6,15 @@
   margin-bottom: 2rem;
   font-family: inherit;
   height: max-content;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+sup{
+  font-size: 0.75rem;
+  color: #fff;
+  margin-left: 0.5rem;
 }
 
 .event_info h1 {
@@ -26,14 +35,35 @@
   margin-bottom: 20px;
 }
 
+.event_info .desc{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
 .event_info h3 {
   font-size: 2rem;
   margin-bottom: 10px;
+  color: #fff;
+  /* text-align: center; */
+  width: 100%;
+}
+
+.event_info span {
+  font-size: 1.6rem;
+  color: #aaa;
+  margin-left: 0.5rem;
 }
 
 .event_info h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 20px;
+  color: white;
+  background-color: #03c6dc2d;
+  text-shadow: 0 0 10px #03c6dc, 0 0 20px #03c6dc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: center;
 }
 
 .neon-button {
@@ -72,8 +102,11 @@
   }
 
   .event_info h2 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 
+  .event_info p {
+    font-size: 1.2rem;
+  }
 
 }

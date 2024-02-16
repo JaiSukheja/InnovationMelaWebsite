@@ -18,6 +18,13 @@
     padding: 0 8rem;
     color: #888;
 }
+.TeamSubHead2{
+    font-size: 1.8rem;
+    position: relative;
+    padding: 0.1rem 8rem;
+    text-shadow: 0 0 10px #03c6dc, 0 0 20px #03c6dc;
+    margin-left: 0.5rem;
+}
 .teamSection{
     width: 100%;
     display: flex;

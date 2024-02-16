@@ -10,6 +10,7 @@ const Cards = () => {
       <p className="TeamSubHead">
         Check out our events and join us for some fun.
       </p>
+      <p className="TeamSubHead2">Cash Prizes in each Category *</p>      
       <div className="cards">
         {EventData.map((event, index) => {
           return <EventCard key={index} props={event} />;
